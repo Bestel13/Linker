@@ -1,0 +1,140 @@
+
+body {
+    text-align: center;
+    
+
+} 
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    /* Styla resten av ditt innehåll här */
+  }
+  
+  .highlighted-text {
+    display: inline;
+    background-color: rgb(245, 169, 240);
+  }
+  
+
+
+  
+.linkbutton{
+    width: auto; 
+    height: 30px;
+    border-radius: 20px; 
+    border: none; 
+    color: white; 
+    background-image: url('uppsättning-av-fluffiga-moln-för-olik-rolig-tecknad-film-69618993.jpg'); /* Lägg till sökvägen till din molnbild */
+    background-size: cover;
+    background-position: center;
+
+}
+
+.linkbutton a{
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    font-weight: bold; 
+    display: block;
+    width: 100%; 
+    height: 100%;
+    margin-top: 10px; 
+}
+
+.facebook{
+    width: 10%; 
+    height: 30px;
+    border-radius: 20px; 
+    border: none; 
+    color: white; 
+}
+.facebook a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.linkedin{
+    width: 10%; 
+    height: 30px;
+    border-radius: 20px; 
+    border: none; 
+    color: white; 
+}
+.linkedin a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.youtube{ width: 10%; 
+    height: 30px;
+    border-radius: 20px; 
+    border: none; 
+    color: white; }
+
+    .youtube a {
+        color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    font-weight: bold; 
+    }
+
+
+
+    .profile {
+        width: 10%; 
+        border-radius: 50%;
+    }
+
+
+
+
+
+
+
+    /* mobile screen*/ 
+
+    @media only screen and (max-width: 600px) {
+        body {
+          background-color: rgb(255, 255, 255);
+        }
+        .linkbutton{
+            width: 50%; 
+            height: 40px;
+            border-radius: 20px; 
+            border: none; 
+            color: white; 
+            
+        }
+        
+        .linkbutton a{
+            color: rgb(0, 0, 0); 
+            text-decoration: none; 
+            font-weight: bold; 
+            display: block;
+            width: 100%; 
+            height: 100%;
+            margin-top: 10px; 
+        }
+
+        .profile {
+            width: 30%; 
+      }
+    }
